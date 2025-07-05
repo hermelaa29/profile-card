@@ -80,7 +80,7 @@ img:hover{
 @media (max-width:496px) {
     .container{
         width: 20rem;
-        height: 28rem;
+        height: 31rem;
     }
     h2{
         font-size: 1.7rem;
