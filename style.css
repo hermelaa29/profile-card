@@ -16,18 +16,19 @@ body{
 }
 .container{
     display: flex;
-    padding: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
     flex-direction: column;
-    width: 35rem;
-    gap: 2rem;
+    width: 25rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     background-color: rgba(3, 30, 70, 0.747);
+    height: 30rem;
     border-radius: 2rem;
     transition: .5s ease;
 }
 .img img{
-    height: 15rem;
+    height: 10rem;
     border-radius: 50%;
     box-shadow: 0 0 10px rgb(232, 255, 255);
     transition: .5s ease;
@@ -36,23 +37,23 @@ body{
     text-align: center;
 }
 h2{
-    font-size: 3rem;
-    padding-bottom: 1rem;
+    font-size: 2rem;
+    padding-bottom: .4rem;
     color: rgb(145, 248, 248);
 }
 h3{
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
 }
 .links{
     display: flex;
     justify-content: space-between;
-    font-size: 2rem;
-    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.4rem;
+    padding: 1rem 3rem 2rem 3rem;
 }
 .links i{
     
@@ -71,18 +72,28 @@ i:hover{
 img:hover{
     transform: scale(1.1);
 }
-@media (max-width:637px) {
+@media (max-width:425px) {
     .container{
-        width: 28rem;
+        width: 20rem;
     }
 }
 @media (max-width:496px) {
     .container{
-        width: 25rem;
+        width: 20rem;
+        height: 28rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 0.9rem;
     }
 }
-@media (max-width:320px) {
+@media (max-width:375px) {
     .container{
-        width: 20rem;
+        width: 18rem;
     }
 }
