@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("https://wallup.net/wp-content/uploads/2016/01/314850-landscape-photography-lake-blue-water-Switzerland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    width: 35rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(3, 30, 70, 0.747);
+    border-radius: 2rem;
+    transition: .5s ease;
+}
+.img img{
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(232, 255, 255);
+    transition: .5s ease;
+}
+.txt{
+    text-align: center;
+}
+h2{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: rgb(145, 248, 248);
+}
+h3{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.links i{
+    
+    color: rgb(145, 248, 248); 
+    transition: .5s ease;
+}
+.container:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(254, 255, 255);
+}
+i:hover{
+    color: white;
+    text-shadow:0px 0 30px rgb(8, 255, 255);
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
+@media (max-width:637px) {
+    .container{
+        width: 28rem;
+    }
+}
+@media (max-width:496px) {
+    .container{
+        width: 25rem;
+    }
+}
+@media (max-width:320px) {
+    .container{
+        width: 20rem;
+    }
+}
